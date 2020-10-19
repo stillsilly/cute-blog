@@ -1,0 +1,23 @@
+{
+  "code": 0,
+  "data": {
+    "list": [
+      {
+        "id": "1",
+        "username": "yangyang",
+        "avatar": "avatar.png",
+        "content": "这篇文章写得好好",
+        "createTime": "2020-10-14 11:56"
+      },
+      {
+        "id": "2",
+        "username": "pepa",
+        "avatar": "avatar.png",
+        "content": "这篇文章写得好好",
+        "createTime": "2020-10-14 11:56"
+      }
+    ],
+    "total": 50
+  },
+  "msg": ""
+}
