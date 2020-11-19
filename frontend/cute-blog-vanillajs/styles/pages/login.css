@@ -1,0 +1,56 @@
+.login-wrapper {
+    width: 500px;
+    margin: auto;
+    margin-top: 100px;
+    background: #fff;
+    padding-left: 104px;
+    padding-right: 104px;
+    padding-bottom: 60px;
+}
+
+.login-header {
+    /* margin-top: 20px; */
+    /* 外边距合并 */
+    padding-top: 50px;
+    margin-bottom: 40px;
+}
+
+.tab-wrapper {
+    text-align: center;
+}
+
+.tab-item {
+    display: inline-block;
+    width: 58px;
+    padding: 0 5px 5px 5px;
+    text-decoration: none;
+    color: #333;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.tab-item_active {
+    border-bottom: 2px solid #FB7299;
+    color: #FB7299;
+}
+
+.form-item {
+    margin-top: 18px;
+    position: relative;
+}
+
+.cute-btn {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.icon-error {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+}
