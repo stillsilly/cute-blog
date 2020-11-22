@@ -1,0 +1,86 @@
+.page-home {
+}
+
+.main-wrapper {
+  width: 1020px;
+  margin: auto;
+  font-size: 0;
+  /* 消除由回车键带来的3像素间距  （是3像素还是几像素来着，记不清 = =） */
+}
+
+.section-main {
+  display: inline-block;
+  width: 676px;
+  font-size: 14px;
+  vertical-align: top;
+}
+
+.my-aside {
+  display: inline-block;
+  width: 332px;
+  margin-left: 12px;
+  font-size: 14px;
+  vertical-align: top;
+}
+
+.section-aside {
+  height: 200px;
+  margin-bottom: 12px;
+}
+
+.tab-wrapper {
+  padding: 16px 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.tab-item {
+  display: inline-block;
+  color: #999;
+  margin-right: 22px;
+  cursor: pointer;
+}
+
+.tab-item_active {
+  color: #fb7299;
+}
+
+/* article-item */
+.article-item {
+  display: inline-block;
+  padding: 10px 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.article-item h3 {
+  color: #333;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+}
+
+.article-item .summary {
+  color: #999;
+  line-height: 1.6;
+}
+
+.row-num {
+  margin-top: 10px;
+  color: #999;
+}
+
+.num-group {
+  margin-right: 24px;
+  vertical-align: middle;
+  line-height: 1;
+}
+
+.num-group span {
+  vertical-align: middle;
+  /* background: pink; */
+}
+
+/* 翻页 */
+.my-pagination {
+  text-align: center;
+  color: #999;
+  padding: 20px;
+}
