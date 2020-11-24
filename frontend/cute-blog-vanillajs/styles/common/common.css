@@ -1,8 +1,14 @@
 html {
   background: #f5f5f5;
-  font-family: -apple-system,system-ui,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Arial;
+  font-family: -apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Cantarell,
+    Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, PingFang SC,
+    Hiragino Sans GB, Microsoft YaHei, Arial;
   word-break: break-word;
   text-rendering: optimizeLegibility;
+}
+
+.page-wrapper {
+  padding-bottom: 50px;
 }
 
 .section-wrapper {
@@ -36,7 +42,8 @@ html {
   vertical-align: middle;
 }
 
-input {
+input,
+textarea {
   border-radius: 3px;
   border: 1px solid #dddddd;
   width: 100%;
@@ -48,7 +55,8 @@ input {
   outline: none;
 }
 
-input:focus {
+input:focus,
+textarea:focus {
   border-color: #fb7299;
 }
 
