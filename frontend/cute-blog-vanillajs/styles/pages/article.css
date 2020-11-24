@@ -63,7 +63,7 @@
 .info-wrapper .name {
   font-size: 14px;
   font-weight: bold;
-  color: #666;
+  color: #333;
 }
 
 .btn-follow {
@@ -179,4 +179,47 @@
 .row-time {
   margin-bottom: 7px;
   color: #999;
+}
+
+/* 侧边推荐位 */
+.section-aside {
+  margin-bottom: 12px;
+  padding: 20px;
+}
+
+.section-aside-author .author-wrapper {
+  margin-bottom: 16px;
+}
+
+.author-line {
+  border: none;
+  height: 1px;
+  background: #eee;
+}
+
+.recommend-list {
+  margin-top: 15px;
+}
+
+.section-recommend-title {
+  border-left: 4px solid #fa7199;
+  padding-left: 6px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.recommend-item {
+  margin-bottom: 12px;
+}
+
+.recommend-item h4 {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.6;
+}
+
+.recommend-item .time {
+  color: #999;
+  margin-top: 5px;
+  font-size: 12px;
 }
