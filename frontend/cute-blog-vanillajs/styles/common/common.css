@@ -53,6 +53,25 @@ html {
   margin-right: 50px;
 }
 
+.btn-write-wrapper {
+  float: right;
+}
+
+.btn-write-wrapper .nav-btn-write {
+  height: auto;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 1;
+}
+.nav-btn-write span{
+  vertical-align: middle;
+}
+.icon-btn {
+  font-size: 18px;
+}
+
 input,
 textarea {
   border-radius: 3px;
@@ -100,6 +119,17 @@ textarea:focus {
   cursor: pointer;
   /* box-shadow: 0 2px 10px 0 #e65c83; */
   box-shadow: 1px 2px 1px 2px #e65c83;
+}
+
+.cute-btn-basic {
+  height: 40px;
+  line-height: 40px;
+  border: none;
+  border-radius: 3px;
+  background: #fb7299;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
 }
 
 .cute-btn:active {
