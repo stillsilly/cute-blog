@@ -4,6 +4,7 @@
 .main-wrapper {
   width: 1020px;
   margin: auto;
+  margin-top: 12px;
   font-size: 0;
   /* 消除由回车键带来的3像素间距  （是3像素还是几像素来着，记不清 = =） */
 }
