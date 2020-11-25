@@ -1,0 +1,13 @@
+.main-wrapper{
+    width: 1020px;
+    margin: auto;
+    margin-top: 12px;
+}
+
+.editor-wrapper{
+    background: #fff;
+}
+
+.row-tag{
+    margin-top: 20px;
+}
