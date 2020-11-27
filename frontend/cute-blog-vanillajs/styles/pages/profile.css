@@ -1,0 +1,199 @@
+/* layout */
+.main-wrapper {
+  width: 1020px;
+  margin: auto;
+  margin-top: 12px;
+  font-size: 0;
+  /* 消除由回车键带来的3像素间距  （是3像素还是几像素来着，记不清 = =） */
+}
+
+.section-main {
+  display: inline-block;
+  width: 676px;
+  font-size: 14px;
+  vertical-align: top;
+}
+
+.section-aside {
+  display: inline-block;
+  width: 332px;
+  margin-left: 12px;
+  font-size: 14px;
+  vertical-align: top;
+}
+
+.profile-info {
+  padding: 25px;
+}
+
+.img-avatar {
+  float: left;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+
+.info-content {
+  padding-left: 105px;
+}
+
+.row-name {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+.row-job {
+  color: #666;
+  margin-top: 10px;
+}
+
+.row-desc {
+  color: #666;
+  margin-top: 10px;
+}
+
+.btn-follow-main {
+  float: right;
+  padding: 6px 30px;
+  background: #fff;
+  color: #fa7199;
+  border: 1px solid #fa7199;
+  border-radius: 20px;
+  cursor: pointer;
+  outline: none;
+}
+
+/* 动态和文章列表部分 */
+.tab-wrapper {
+  border-bottom: 1px solid #eee;
+}
+
+.tab-item {
+  display: inline-block;
+  padding: 11px 25px;
+  cursor: pointer;
+}
+
+.tab-item_active {
+  position: relative;
+}
+
+.tab-item_active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  background: #fa7199;
+}
+
+.section-article {
+  margin-top: 12px;
+}
+
+/* feed-card */
+.feed-card {
+  padding: 15px 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.feed-card .row-action {
+  margin-bottom: 8px;
+  color: #999;
+}
+
+.feed-time {
+  float: right;
+}
+
+.row-title {
+  color: #fa7199;
+  cursor: pointer;
+  line-height: 1.6;
+  margin-bottom: 5px;
+}
+
+.row-summary {
+  line-height: 1.6;
+  color: #666;
+}
+
+.row-num {
+  margin-top: 10px;
+  color: #999;
+}
+
+.num-group {
+  margin-right: 24px;
+  vertical-align: middle;
+  line-height: 1;
+}
+
+.num-group span {
+  vertical-align: middle;
+  /* background: pink; */
+}
+
+/* 侧边 */
+.section-follow-num {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 0;
+}
+
+.section-follow-num .text,
+.section-follow-num .num {
+  font-size: 15px;
+}
+
+.followee,
+.follower {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+}
+
+.followee {
+  border-right: 1px solid #eee;
+}
+
+.section-follow-num .num {
+  margin-top: 5px;
+}
+
+.section-count-num {
+  margin-top: 12px;
+  padding: 20px;
+}
+
+.count-icon {
+  display: inline-block;
+  vertical-align: middle;
+  width: 28px;
+  height: 28px;
+  background-color: #fed3e0;
+  border-radius: 15px;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-right: 5px;
+}
+
+.icon-count-good {
+  background-image: url("./../../images/icon-good-pink.png");
+}
+
+.icon-count-read {
+  background-image: url("./../../images/icon-eye-pink.png");
+}
+
+.roe-count-read {
+  margin-top: 15px;
+}
+
+.join-time{
+    margin-top: 12px;
+    color: #666;
+}
